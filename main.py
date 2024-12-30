@@ -34,4 +34,4 @@ async def add(num1: int, num2: int):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, port=8082, host='0.0.0.0')
+    uvicorn.run(app, port=8082 , host='0.0.0.0')
